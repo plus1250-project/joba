@@ -1,23 +1,25 @@
-# 트렌드를 JOBA:loudspeaker:
+# :loudspeaker: 트렌드를 JOBA
 
-## 프로젝트 주제:radio:
+## :radio: 프로젝트 주제
 기사 산업군 분류와 키워드 분석을 통한 산업군 트렌드 분석
 
-## 프로젝트 기간:hourglass:
-`2022년 5월 23일 ~ 2022년 7월 15일`
+## :hourglass: 프로젝트 기간
+`2022년 5월 23일 ~ 2022년 7월 23일`
 
-## 팀 소개:high_brightness:
+## :high_brightness: 팀 소개
 
 **팀명: +125°** &#x1F321;&#xFE0F;   
 **팀장: 김영애**  
-:cyclone: 김영애 :  
-:ocean: 김종원 :  
-&#x1F9A6; 양지현 :  
-:hamster:오다솔 :  
- :runner: 이동빈 :  
+:cyclone: 김영애 : 데이터 파이프라인 설계 및 구축  
+:ocean: 김종원 :  백엔드 , 프론트엔드 ,docker 구축  
+&#x1F9A6; 양지현 :  데이터 분석 , 프론트엔드  
+:hamster:오다솔 :  백엔드  
+ :runner: 이동빈 :  AI 
+ 
+## :movie_camera: 기능 구현 
 
 
-## 기술 스택 :wrench:
+## :wrench: 기술 스택
 <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white">  
 <img src="https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=Amazon%20S3&logoColor=white">
 <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white">
@@ -29,11 +31,11 @@
 <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white">
 <img src="https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=for-the-badge&logo=Apache%20Tomcat&logoColor=white">
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-...추가중 
+<img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apache%20Airflow&logoColor=white">
+<img src="https://img.shields.io/badge/RedHat-EE0000?style=for-the-badge&logo=redhat&logoColor=white">
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white">
 
 <i class="devicon-pytorch-plain-wordmark"></i>
-## 실행 화면 :bar_chart:
-
 
 
 ## WIKI:scroll:
