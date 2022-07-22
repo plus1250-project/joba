@@ -13,7 +13,7 @@
 :cyclone: 김영애 : 데이터 파이프라인 설계 및 구축  
 :ocean: 김종원 :  백엔드 , 프론트엔드 ,docker 구축  
 &#x1F9A6; 양지현 :  데이터 분석 , 프론트엔드  
-:hamster:오다솔 :  백엔드  
+:hamster: 오다솔 :  백엔드  
  :runner: 이동빈 :  AI 
  
 ## :movie_camera: 기능 구현 
