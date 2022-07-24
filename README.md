@@ -27,7 +27,8 @@
  
 ## :movie_camera: 기능 소개
 
-[![유튜브화면](https://user-images.githubusercontent.com/97429679/180659091-7ddfa6c7-dfff-4360-8740-3be02586ec2e.PNG)](https://youtu.be/6BCoMDTAVqs)
+[시연 영상 링크](https://youtu.be/6BCoMDTAVqs)
+
 ![image](https://user-images.githubusercontent.com/97663140/180639315-e8f00d35-d429-495d-8456-4dea82bee7a1.png)
 
 <p float=left>
@@ -82,15 +83,15 @@
 - Repository 에서 DB 정보를 잘 호출 할 수 있도록 메소드 수정하여 해결.
 - Controller 에서 요청을 수신할 때 POST, GET 요청을 구분하여서 파라미터를 설정하여 해결.
 2. Spring Security + JWT
-- 
-- 
+- antMatchers.permitAll()을 해도 메소드 실행이 안 돼서 .csrf().disable() 추가하여 해결.
+- 파라미터 값을 가져오지 못하여 access token이 생성이 되지 않아 LoginDTO를 만들어 해결.
 3. Docker 컨테이너 네트워크
 - 독립된 컨테이너로 구축하면 컨테이너 간의 통신이 되지 않는 문제 발생.
 - 브릿지 네트워크를 동일한 네트워크로 구성하여 해결.
 
-
 ## :thought_balloon: 개선 사항 
-1. 모델과 HDFS를 연결하여 데이터 흐름의 모든 부분을 Airflow로 자동화
+1. Airflow 자동화 구축
+- HDFS와 모델을 연결
 2. 로그인 Redis 활용 토큰 관리
 3. 리액트 프로젝트 도커 컴포즈로 배포
 4. 독립된 도커 컨테이너로 구축된 MariaDB 를 Mysqldump 를 이용하여 백업하고 React + Nginx + SpringBoot + MariaDB 함께 도커 컴포즈 재배포
