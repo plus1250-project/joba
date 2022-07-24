@@ -27,7 +27,7 @@
  
 ## :movie_camera: 기능 소개
 
-[시연 영상 링크](https://youtu.be/6BCoMDTAVqs)
+[![유튜브화면](https://user-images.githubusercontent.com/97429679/180661184-3a780e84-5641-4118-807c-9fd5d023d267.PNG)](https://youtu.be/6BCoMDTAVqs)
 
 ![image](https://user-images.githubusercontent.com/97663140/180639315-e8f00d35-d429-495d-8456-4dea82bee7a1.png)
 
@@ -65,10 +65,10 @@
 ### 데이터 
 1. KoBERT 정확도 
 - 계획대로 훈련 데이터 셋을 생성하여 훈련을 시켰을 때, 정확도가 기대에 미치지 못하는 문제 발생.
-- 훈련 데이터의 양을 늘리고 하이퍼 파라미터를 조정함으로써 해결. 
+- 훈련 데이터를 개선하고 하이퍼 파라미터를 조정함으로써 해결. 
 2. 키워드 추출
 - 기사 안의 명사를 카운팅하는 워드 카운트를 실행하였을 때 의미없는 단어들이 상위권에 위치하는 문제 발생.
-- 키워드 추출 모델인 KeyBERT를 사용하여 기사 하나당 키워드 하나를 추출하고 카운팅하여 해결.
+- 키워드 추출 모델인 KeyBERT를 사용하여 기사 하나당 핵심 키워드 하나를 추출하고 카운팅하여 해결.
 ### 웹 
 #### 프론트
 
@@ -83,15 +83,14 @@
 - Repository 에서 DB 정보를 잘 호출 할 수 있도록 메소드 수정하여 해결.
 - Controller 에서 요청을 수신할 때 POST, GET 요청을 구분하여서 파라미터를 설정하여 해결.
 2. Spring Security + JWT
-- antMatchers.permitAll()을 해도 메소드 실행이 안 돼서 .csrf().disable() 추가하여 해결.
-- 파라미터 값을 가져오지 못하여 access token이 생성이 되지 않아 LoginDTO를 만들어 해결.
+- antMatchers.permitAll()을 해도 메소드 실행이 되지 않는 문제발생가 발생하여 .csrf().disable() 추가하여 해결.
+- 파라미터 값을 가져오지 못하여 access token이 생성이 되지 않는 문제가 발생하여 LoginDTO를 만들어 해결.
 3. Docker 컨테이너 네트워크
 - 독립된 컨테이너로 구축하면 컨테이너 간의 통신이 되지 않는 문제 발생.
 - 브릿지 네트워크를 동일한 네트워크로 구성하여 해결.
 
 ## :thought_balloon: 개선 사항 
-1. Airflow 자동화 구축
-- HDFS와 모델을 연결
+1. 모델서버와 HDFS를 연결하여 전체 데이터 흐름을 Airflow로 자동화
 2. 로그인 Redis 활용 토큰 관리
 3. 리액트 프로젝트 도커 컴포즈로 배포
 4. 독립된 도커 컨테이너로 구축된 MariaDB 를 Mysqldump 를 이용하여 백업하고 React + Nginx + SpringBoot + MariaDB 함께 도커 컴포즈 재배포
@@ -113,5 +112,5 @@
 - 화면 설계
 - Class Diagram
 - API 명세서
-- 시스템 
+- 시스템 아키텍처
 
