@@ -19,10 +19,11 @@
 **팀명: +125°** &#x1F321;&#xFE0F;   
 **팀장: 김영애**  
 :cyclone: 김영애 : 데이터 ETL, 데이터 파이프라인 설계 및 구축  
-:ocean: 김종원 :  백엔드 , 프론트엔드 ,docker 구축  
+ :runner: 이동빈 :  데이터 ETL, AI  
 &#x1F9A6; 양지현 :  데이터 ETL , 프론트엔드  
+:ocean: 김종원 :  백엔드 , 프론트엔드 ,docker 구축  
 :hamster: 오다솔 :  백엔드  
- :runner: 이동빈 :  데이터 ETL, AI 
+
  
 ## :movie_camera: 기능 소개
 ![image](https://user-images.githubusercontent.com/97663140/180639315-e8f00d35-d429-495d-8456-4dea82bee7a1.png)
