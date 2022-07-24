@@ -90,8 +90,7 @@
 
 
 ## :thought_balloon: 개선 사항 
-1. Airflow 자동화 구축
-- HDFS와 모델을 연결
+1. 모델과 HDFS를 연결하여 데이터 흐름의 모든 부분을 Airflow로 자동화
 2. 로그인 Redis 활용 토큰 관리
 3. 리액트 프로젝트 도커 컴포즈로 배포
 4. 독립된 도커 컨테이너로 구축된 MariaDB 를 Mysqldump 를 이용하여 백업하고 React + Nginx + SpringBoot + MariaDB 함께 도커 컴포즈 재배포
