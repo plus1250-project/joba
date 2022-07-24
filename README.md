@@ -78,7 +78,7 @@
 1. Airflow 자동화 구축
 -  HDFS와 모델을 연결
 2. 프론트 도커라이징
-3. 로그인 Redis 활용 토큰 관리  
+3. 로그인 Redis 연결 토큰 재발급 구현
 
 
 <i class="devicon-pytorch-plain-wordmark"></i>
