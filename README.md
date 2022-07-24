@@ -24,7 +24,7 @@
 :hamster: 오다솔 :  백엔드  
  :runner: 이동빈 :  데이터 ETL, AI 
  
-## :movie_camera: 기능 구현 
+## :movie_camera: 기능 소개
 ![image](https://user-images.githubusercontent.com/97663140/180639315-e8f00d35-d429-495d-8456-4dea82bee7a1.png)
 
 <p float=left>
@@ -82,7 +82,7 @@
 - :3 
 
 
-## :thought_balloon: 앞으로 개선 사항 
+## :thought_balloon: 개선 사항 
 1. Airflow 자동화 구축
 -  HDFS와 모델을 연결
 2. 프론트 도커라이징
