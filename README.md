@@ -70,18 +70,32 @@
 - 기사 안의 명사를 카운팅하는 워드 카운트를 실행하였을 때 의미없는 단어들이 상위권에 위치하는 문제 발생.
 - 키워드 추출 모델인 KeyBERT를 사용하여 기사 하나당 키워드 하나를 추출하고 카운팅하여 해결.
 ### 웹 
-1. state 관리 
+### 프론트
+
+1. state 관리
 - 부모자식 컴포넌트 간의 state 관리는 props로 가능하지만, 관계가 없는 컴포넌트는 state 관리가 어려운 문제
-- Redux를 사용하여 state를 관리함으로써 해결. 
-2. JWT 
-- :3 
+- Redux를 사용하여 state를 관리함으로써 해결.
+
+### 백엔드
+
+1. JPA
+- 빈 리스트를 반환하거나 Entity 관련 에러를 다수 출력하는 문제 발생.
+- Repository 에서 DB 정보를 잘 호출 할 수 있도록 메소드 수정하여 해결.
+- Controller 에서 요청을 수신할 때 POST, GET 요청을 구분하여서 파라미터를 설정하여 해결.
+2. Spring Security + JWT
+- 
+- 
+3. Docker 컨테이너 네트워크
+- 독립된 컨테이너로 구축하면 컨테이너 간의 통신이 되지 않는 문제 발생.
+- 브릿지 네트워크를 동일한 네트워크로 구성하여 해결.
 
 
 ## :thought_balloon: 개선 사항 
 1. Airflow 자동화 구축
--  HDFS와 모델을 연결
-2. 프론트 도커라이징
-3. 로그인 Redis 활용 토큰 관리  
+- HDFS와 모델을 연결
+2. 로그인 Redis 활용 토큰 관리
+3. 리액트 프로젝트 도커 컴포즈로 배포
+4. 독립된 도커 컨테이너로 구축된 MariaDB 를 Mysqldump 를 이용하여 백업하고 React + Nginx + SpringBoot + MariaDB 함께 도커 컴포즈 재배포
 
 
 <i class="devicon-pytorch-plain-wordmark"></i>
