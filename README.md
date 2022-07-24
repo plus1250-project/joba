@@ -27,8 +27,7 @@
  
 ## :movie_camera: 기능 소개
 
-[시연 영상 링크](https://youtu.be/6BCoMDTAVqs)
-
+[![유튜브화면](https://user-images.githubusercontent.com/97429679/180659091-7ddfa6c7-dfff-4360-8740-3be02586ec2e.PNG)](https://youtu.be/6BCoMDTAVqs)
 ![image](https://user-images.githubusercontent.com/97663140/180639315-e8f00d35-d429-495d-8456-4dea82bee7a1.png)
 
 <p float=left>
