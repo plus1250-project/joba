@@ -22,7 +22,7 @@
  :runner: 이동빈 :  데이터 ETL, AI  
 &#x1F9A6; 양지현 :  데이터 ETL , 프론트엔드  
 :ocean: 김종원 :  백엔드 , 프론트엔드 ,docker 구축  
-:hamster: 오다솔 :  백엔드  
+:hamster: 오다솔 :  백엔드, docker 구축  
 
  
 ## :movie_camera: 기능 소개
